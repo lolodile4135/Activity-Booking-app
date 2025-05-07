@@ -1,6 +1,12 @@
 This is a full-stack application that allows users to view, book, and manage activities. The backend is built with Node.js, Express, and MongoDB while the front-end interacts with the API. This app is designed to manage activity bookings for authenticated users.
 
+in .env file include
 
+PORT=****
+
+MONGO_URI=mongodburl
+
+JWT_SECRET=your secret key
 
 
 User Authentication: Users can register, log in, and access their accounts.
